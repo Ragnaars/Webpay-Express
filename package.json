@@ -1,0 +1,23 @@
+{
+  "name": "webpay",
+  "version": "1.0.0",
+  "description": "practica para integracion con webpay con express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "arrancar": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "node-rest-client": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
